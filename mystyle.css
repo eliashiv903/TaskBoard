@@ -1,0 +1,113 @@
+
+
+body {
+    background-image: url("bgNote.webp");
+    background-color: #cccccc;
+    background-repeat:repeat;
+    background-size: 100%;
+    background-position: 0 -280px;          
+    padding:150px 14px 20px;
+}
+   
+
+h1 { 
+
+    color:black; 
+    font-family: 'Droid serif', serif;
+    font-size: 50px; 
+    font-weight: 400; 
+    font-style: italic; 
+    line-height: 44px;
+     margin: 0 0 12px; 
+     text-align: center; 
+     padding-top: 20px;
+     padding-bottom: 15px;
+
+    }
+
+    th, td {
+        
+        text-align: left;
+        border: 1px solid black;
+        text-align: center;
+        vertical-align: middle;  
+        
+        
+      }
+
+
+    th:nth-child(1){
+      width: 55%;
+    }
+    th:nth-child(2){
+      width: 15%;
+    }
+    th:nth-child(3){
+      width: 15%;
+    }
+    th:nth-child(4){
+      width: 15%;
+    }
+
+table{
+    
+    border-collapse: collapse;
+    width:68%; 
+    margin-left:16.5%; 
+    margin-right:15.5%;
+    
+}
+
+
+h3 {
+    color:maroon;
+    font-family: Papyrus, fantasy;
+     font-size: 18px;
+      font-style: normal;
+       font-variant: normal;
+        font-weight: 700; 
+        line-height: 15.4px; 
+       }
+
+       .the{
+           color: black;
+       }
+
+
+input[type="checkbox"] {
+    zoom: 2;
+    
+}
+
+.push{
+    text-align:center; 
+}
+
+input[type=text] {
+    width: 40%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+  }   
+
+  .btnPush {
+    transition-duration: 0.4s;
+    color:maroon;
+    background-color: burlywood;
+  }
+  
+  .btnPush:hover {
+    background-color: black; 
+    color: white;
+  }
+
+  .btnDelete {
+    transition-duration: 0.4s;
+    color:maroon;
+    background-color: white;
+  }
+  
+  .btnDelete:hover {
+    background-color: burlywood; 
+    color:white;
+  }
+ 
